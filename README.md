@@ -1,10 +1,10 @@
-# 노래 그림 영상 만들기
+﻿# 뮤직비디오 만들기
 
 음원과 PDF 또는 JPG·JPEG·PNG 그림으로 16:9 풀 HD MP4 영상을 만드는 Windows 앱입니다.
 
 ## 다운로드
 
-[최신 릴리즈](https://github.com/BoscoHeo/song-picture-video/releases/latest)에서 Windows x64 경량판 ZIP을 받아 전체를 압축 해제하고 `노래 그림 영상 만들기.exe`를 실행하세요.
+[최신 릴리즈](https://github.com/BoscoHeo/song-picture-video/releases/latest)에서 Windows x64 경량판 ZIP을 받아 전체를 압축 해제하고 `뮤직비디오 만들기.exe`를 실행하세요.
 
 - 첫 실행에 영상 도구를 약 113MB 내려받습니다.
 - 음원으로부터 가사를 처음 자동 인식할 때 약 486MB의 음성 모델을 받습니다. SRT를 사용하거나 시간을 직접 지정하면 음성 모델은 필요하지 않습니다.

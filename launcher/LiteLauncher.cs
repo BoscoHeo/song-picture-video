@@ -48,7 +48,7 @@ internal static class Launcher
         catch (Exception error)
         {
             if (!check)
-                MessageBox.Show(error.Message, "노래 그림 영상 만들기",
+                MessageBox.Show(error.Message, "뮤직비디오 만들기",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             return 1;
         }

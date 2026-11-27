@@ -1,4 +1,4 @@
-from dataclasses import replace
+﻿from dataclasses import replace
 import json
 import os
 from pathlib import Path
@@ -49,7 +49,7 @@ class VideoApp:
         self.busy = False
         self.last_preview = None
         self.ffmpeg, self.ffprobe, self.ffplay = binaries()
-        self.window.title('노래 그림 영상 만들기')
+        self.window.title('뮤직비디오 만들기')
         self.window.geometry('1190x755')
         self.window.minsize(960, 650)
         self.window.configure(bg='#f4f4ef')
@@ -72,7 +72,7 @@ class VideoApp:
 
         page = ttk.Frame(self.window, padding=(22, 17))
         page.pack(fill='both', expand=True)
-        ttk.Label(page, text='노래 그림 영상 만들기', style='Title.TLabel').pack(anchor='w')
+        ttk.Label(page, text='뮤직비디오 만들기', style='Title.TLabel').pack(anchor='w')
         bar = ttk.Frame(page, padding=(0,12))
         bar.pack(fill='x')
         self.buttons = []
