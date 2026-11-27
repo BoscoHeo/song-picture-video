@@ -1,0 +1,25 @@
+﻿노래 그림 영상 만들기 · Windows 경량판 1.0
+
+1. ZIP 전체를 압축 해제합니다. 폴더 안의 ‘노래 그림 영상 만들기.exe’를 엽니다.
+2. 첫 실행에 영상 도구 FFmpeg를 한 번 내려받습니다(약 113MB).
+3. 음원과 PDF 또는 JPG 여러 장을 선택합니다. ‘자동 배치’에서 음원 가사를
+   처음 읽을 때 음성 모델을 내려받습니다(약 486MB). 시간 정보가 있는 SRT를
+   선택하거나 시간을 직접 지정하는 경우에는 음성 모델이 필요하지 않습니다.
+4. 확인 표시를 살펴보고 필요한 그림 순서·회전·시각을 수정한 뒤 MP4를 저장합니다.
+
+한 번 받은 파일은 프로그램 폴더에 저장됩니다. 다음 실행부터는 이미 받은
+도구를 사용합니다. 음원·PDF·그림은 서버에 전송하지 않습니다.
+폴더를 옮길 때는 실행 파일과 runtime 및 app 폴더를 모두 함께 옮기세요.
+
+Windows 10·11 64비트(x64)용입니다. Python은 포함되어 있습니다.
+그림 속 한국어를 읽으려면 Windows에 한국어 OCR 기능이 있어야 합니다.
+https://learn.microsoft.com/windows/powertoys/text-extractor
+가사 인식에서 DLL 오류가 나면 Microsoft Visual C++ x64 런타임을 확인하세요.
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+
+FFmpeg 9.1 Windows essentials 다운로드 및 출처
+https://www.gyan.dev/ffmpeg/builds/
+음성 모델 및 라이선스
+https://huggingface.co/Systran/faster-whisper-small
+CPython과 Python 라이브러리의 라이선스 정보는 runtime 및 app/runtime에 있습니다.
+

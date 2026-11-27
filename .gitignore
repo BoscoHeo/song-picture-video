@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+/runtime/
+/app/runtime/
+*.zip
+*.mp4
+/portable-test-result.json
+/.venv/
